@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:id="@+id/appname"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name" />
+
+    <TextView
+        android:id="@+id/version"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="version 1" />
+
+    <ImageView
+        android:id="@+id/myLogo"
+        android:layout_width="354dp"
+        android:layout_height="240dp"
+        android:layout_gravity="center"
+        android:padding="32dp"
+        android:src="@mipmap/ic_omar" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="DEVELOPED BY" />
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="OMARIONARY TECHS" />
+
+    <TextView
+        android:id="@+id/contactsUs"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="CONTACT US" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="omarsalisu9@gmail.com"/>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="github" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="\@omarbaba99"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:paddingTop="200dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="2021"/>
+
+
+
+
+</LinearLayout>
